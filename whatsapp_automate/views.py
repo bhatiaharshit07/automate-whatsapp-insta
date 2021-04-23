@@ -8,6 +8,7 @@ def home_whatsapp(request):
     return render(request, "whatsapp.html")
 
 def result(request):
-    input_sentence = request.POST.get('txt')
-    return render(request, "result.html", {'content':input_sentence})
+    msg = request.POST.get('txt')
+    num = request.POST.get('num')
+    return render(request, "result.html", {'msg':msg, 'num':num})
 
