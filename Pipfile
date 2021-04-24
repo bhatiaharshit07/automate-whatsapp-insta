@@ -26,6 +26,8 @@ PyGetWindow = "==0.0.9"
 PyMsgBox = "==1.0.9"
 PyScreeze = "==0.1.27"
 PyTweening = "==1.0.3"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
