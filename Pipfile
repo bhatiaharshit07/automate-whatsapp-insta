@@ -28,6 +28,7 @@ PyScreeze = "==0.1.27"
 PyTweening = "==1.0.3"
 gunicorn = "*"
 whitenoise = "*"
+python-xlib = "*"
 
 [dev-packages]
 
